@@ -1,0 +1,623 @@
+{
+  "version": 4,
+  "app_title": "CampusShare Plan",
+  "nav": {
+    "placement": "none",
+    "items": []
+  },
+  "pages": [
+    {
+      "id": "page-509f1d54",
+      "name": "Sign in",
+      "route": "/login",
+      "item_ref": {
+        "index": 1,
+        "text": "Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability."
+      },
+      "blocks": [
+        {
+          "id": "login-hero",
+          "type": "hero",
+          "label": "CampusShare welcome",
+          "hint": "Tagline and sample account guidance",
+          "x": 0,
+          "y": 0,
+          "w": 6,
+          "h": 8,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "login-form",
+          "type": "form",
+          "label": "Email and password",
+          "hint": "Sign in and register, with demo credentials",
+          "x": 6,
+          "y": 0,
+          "w": 6,
+          "h": 8,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-1a3f620b",
+      "name": "Home",
+      "route": "/",
+      "item_ref": {
+        "index": 1,
+        "text": "Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability."
+      },
+      "blocks": [
+        {
+          "id": "home-sidebar",
+          "type": "sidebar",
+          "label": "CampusShare navigation",
+          "hint": "Home, Browse, My Items, My Borrowings, Requests, Saved, Profile",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "home-hero",
+          "type": "hero",
+          "label": "Discover and share",
+          "hint": "Tagline, prominent search, List an Item action",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 3,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "home-need",
+          "type": "form",
+          "label": "Need It?",
+          "hint": "Natural language item match",
+          "x": 2,
+          "y": 3,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "home-grid",
+          "type": "card_grid",
+          "label": "Categories and available items",
+          "hint": "Category shortcuts, popular, recent and nearby cards",
+          "x": 2,
+          "y": 5,
+          "w": 10,
+          "h": 7,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-6f0dfc43",
+      "name": "Browse",
+      "route": "/browse",
+      "item_ref": {
+        "index": 1,
+        "text": "Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability."
+      },
+      "blocks": [
+        {
+          "id": "browse-sidebar",
+          "type": "sidebar",
+          "label": "CampusShare navigation",
+          "hint": "Shared page navigation",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "browse-filters",
+          "type": "form",
+          "label": "Search and filters",
+          "hint": "Category, availability, condition, department, year, location",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 3,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "browse-grid",
+          "type": "text",
+          "label": "Available listings",
+          "hint": "Item images, owner, location, condition and request actions",
+          "x": 2,
+          "y": 3,
+          "w": 10,
+          "h": 9,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-90de9d98",
+      "name": "Item Details",
+      "route": "/item/[item_id]",
+      "item_ref": {
+        "index": 1,
+        "text": "Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability."
+      },
+      "blocks": [
+        {
+          "id": "detail-sidebar",
+          "type": "sidebar",
+          "label": "CampusShare navigation",
+          "hint": "Shared page navigation",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "detail-image",
+          "type": "image",
+          "label": "Item image",
+          "hint": "Large listing visual",
+          "x": 2,
+          "y": 0,
+          "w": 5,
+          "h": 7,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "detail-info",
+          "type": "text",
+          "label": "Item and owner details",
+          "hint": "Description, condition, duration, pickup, availability and request action",
+          "x": 7,
+          "y": 0,
+          "w": 5,
+          "h": 7,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-2da2ca54",
+      "name": "Saved",
+      "route": "/saved",
+      "item_ref": {
+        "index": 1,
+        "text": "Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability."
+      },
+      "blocks": [
+        {
+          "id": "saved-sidebar",
+          "type": "sidebar",
+          "label": "CampusShare navigation",
+          "hint": "Shared page navigation",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "saved-grid",
+          "type": "card_grid",
+          "label": "Saved items",
+          "hint": "Bookmarked item cards and empty state",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 10,
+          "item_ref": {
+            "index": 1,
+            "text": "Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-225ea477",
+      "name": "My Items",
+      "route": "/my-items",
+      "item_ref": {
+        "index": 2,
+        "text": "Build My Items and Borrow Request pages with image upload, validated listing forms, editing and availability controls, date-based requests, and a clear request confirmation."
+      },
+      "blocks": [
+        {
+          "id": "items-sidebar",
+          "type": "sidebar",
+          "label": "CampusShare navigation",
+          "hint": "Shared page navigation",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 2,
+            "text": "Build My Items and Borrow Request pages with image upload, validated listing forms, editing and availability controls, date-based requests, and a clear request confirmation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "items-header",
+          "type": "header",
+          "label": "Your listings",
+          "hint": "Add item action and listing counts",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 2,
+            "text": "Build My Items and Borrow Request pages with image upload, validated listing forms, editing and availability controls, date-based requests, and a clear request confirmation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "items-grid",
+          "type": "image",
+          "label": "Owned listings",
+          "hint": "Edit, availability, image and current status",
+          "x": 2,
+          "y": 2,
+          "w": 10,
+          "h": 8,
+          "item_ref": {
+            "index": 2,
+            "text": "Build My Items and Borrow Request pages with image upload, validated listing forms, editing and availability controls, date-based requests, and a clear request confirmation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "items-form",
+          "type": "form",
+          "label": "Listing editor",
+          "hint": "Image upload and validated listing fields",
+          "x": 2,
+          "y": 10,
+          "w": 10,
+          "h": 6,
+          "item_ref": {
+            "index": 2,
+            "text": "Build My Items and Borrow Request pages with image upload, validated listing forms, editing and availability controls, date-based requests, and a clear request confirmation."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-326ff66f",
+      "name": "Borrow Request",
+      "route": "/item/[item_id]/request",
+      "item_ref": {
+        "index": 2,
+        "text": "Build My Items and Borrow Request pages with image upload, validated listing forms, editing and availability controls, date-based requests, and a clear request confirmation."
+      },
+      "blocks": [
+        {
+          "id": "request-sidebar",
+          "type": "sidebar",
+          "label": "CampusShare navigation",
+          "hint": "Shared page navigation",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 2,
+            "text": "Build My Items and Borrow Request pages with image upload, validated listing forms, editing and availability controls, date-based requests, and a clear request confirmation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "request-summary",
+          "type": "text",
+          "label": "Selected item summary",
+          "hint": "Owner, availability and borrowing limits",
+          "x": 2,
+          "y": 0,
+          "w": 4,
+          "h": 7,
+          "item_ref": {
+            "index": 2,
+            "text": "Build My Items and Borrow Request pages with image upload, validated listing forms, editing and availability controls, date-based requests, and a clear request confirmation."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "request-form",
+          "type": "form",
+          "label": "Borrow request",
+          "hint": "Dates, reason, optional message and confirmation",
+          "x": 6,
+          "y": 0,
+          "w": 6,
+          "h": 7,
+          "item_ref": {
+            "index": 2,
+            "text": "Build My Items and Borrow Request pages with image upload, validated listing forms, editing and availability controls, date-based requests, and a clear request confirmation."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-2b282b94",
+      "name": "My Borrowings",
+      "route": "/my-borrowings",
+      "item_ref": {
+        "index": 3,
+        "text": "Build My Borrowings, Requests, Profile, and admin statistics views with approval/rejection, active and due-soon tracking, returns, mutual ratings, reliability metrics, and the complete end-to-end demo workflow."
+      },
+      "blocks": [
+        {
+          "id": "borrow-sidebar",
+          "type": "sidebar",
+          "label": "CampusShare navigation",
+          "hint": "Shared page navigation",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 3,
+            "text": "Build My Borrowings, Requests, Profile, and admin statistics views with approval/rejection, active and due-soon tracking, returns, mutual ratings, reliability metrics, and the complete end-to-end demo workflow."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "borrow-tabs",
+          "type": "tabs",
+          "label": "Borrowing status",
+          "hint": "Pending, approved, active, due soon, returned",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 3,
+            "text": "Build My Borrowings, Requests, Profile, and admin statistics views with approval/rejection, active and due-soon tracking, returns, mutual ratings, reliability metrics, and the complete end-to-end demo workflow."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "borrow-list",
+          "type": "list",
+          "label": "Borrowing history",
+          "hint": "Return actions, dates, status and rating",
+          "x": 2,
+          "y": 2,
+          "w": 10,
+          "h": 9,
+          "item_ref": {
+            "index": 3,
+            "text": "Build My Borrowings, Requests, Profile, and admin statistics views with approval/rejection, active and due-soon tracking, returns, mutual ratings, reliability metrics, and the complete end-to-end demo workflow."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-8ec51d54",
+      "name": "Requests",
+      "route": "/requests",
+      "item_ref": {
+        "index": 3,
+        "text": "Build My Borrowings, Requests, Profile, and admin statistics views with approval/rejection, active and due-soon tracking, returns, mutual ratings, reliability metrics, and the complete end-to-end demo workflow."
+      },
+      "blocks": [
+        {
+          "id": "requests-sidebar",
+          "type": "sidebar",
+          "label": "CampusShare navigation",
+          "hint": "Shared page navigation",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 3,
+            "text": "Build My Borrowings, Requests, Profile, and admin statistics views with approval/rejection, active and due-soon tracking, returns, mutual ratings, reliability metrics, and the complete end-to-end demo workflow."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "requests-header",
+          "type": "header",
+          "label": "Incoming requests",
+          "hint": "Pending count and status filters",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 3,
+            "text": "Build My Borrowings, Requests, Profile, and admin statistics views with approval/rejection, active and due-soon tracking, returns, mutual ratings, reliability metrics, and the complete end-to-end demo workflow."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "requests-list",
+          "type": "list",
+          "label": "Owner inbox",
+          "hint": "Borrower, dates, reason and accept/reject actions",
+          "x": 2,
+          "y": 2,
+          "w": 10,
+          "h": 9,
+          "item_ref": {
+            "index": 3,
+            "text": "Build My Borrowings, Requests, Profile, and admin statistics views with approval/rejection, active and due-soon tracking, returns, mutual ratings, reliability metrics, and the complete end-to-end demo workflow."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-a3896744",
+      "name": "Profile",
+      "route": "/profile",
+      "item_ref": {
+        "index": 3,
+        "text": "Build My Borrowings, Requests, Profile, and admin statistics views with approval/rejection, active and due-soon tracking, returns, mutual ratings, reliability metrics, and the complete end-to-end demo workflow."
+      },
+      "blocks": [
+        {
+          "id": "profile-sidebar",
+          "type": "sidebar",
+          "label": "CampusShare navigation",
+          "hint": "Shared page navigation",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 3,
+            "text": "Build My Borrowings, Requests, Profile, and admin statistics views with approval/rejection, active and due-soon tracking, returns, mutual ratings, reliability metrics, and the complete end-to-end demo workflow."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "profile-identity",
+          "type": "text",
+          "label": "Student identity",
+          "hint": "Name, department and year",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 3,
+          "item_ref": {
+            "index": 3,
+            "text": "Build My Borrowings, Requests, Profile, and admin statistics views with approval/rejection, active and due-soon tracking, returns, mutual ratings, reliability metrics, and the complete end-to-end demo workflow."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "profile-stats",
+          "type": "list",
+          "label": "Reliability and activity",
+          "hint": "Borrowed, lent, successful returns, late returns, rating",
+          "x": 2,
+          "y": 3,
+          "w": 10,
+          "h": 5,
+          "item_ref": {
+            "index": 3,
+            "text": "Build My Borrowings, Requests, Profile, and admin statistics views with approval/rejection, active and due-soon tracking, returns, mutual ratings, reliability metrics, and the complete end-to-end demo workflow."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-7abdedba",
+      "name": "Admin statistics",
+      "route": "/admin",
+      "item_ref": {
+        "index": 3,
+        "text": "Build My Borrowings, Requests, Profile, and admin statistics views with approval/rejection, active and due-soon tracking, returns, mutual ratings, reliability metrics, and the complete end-to-end demo workflow."
+      },
+      "blocks": [
+        {
+          "id": "admin-sidebar",
+          "type": "sidebar",
+          "label": "CampusShare navigation",
+          "hint": "Shared page navigation with admin access",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 3,
+            "text": "Build My Borrowings, Requests, Profile, and admin statistics views with approval/rejection, active and due-soon tracking, returns, mutual ratings, reliability metrics, and the complete end-to-end demo workflow."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "admin-stats",
+          "type": "list",
+          "label": "Campus activity",
+          "hint": "Total users, available items, active borrowings, pending requests and returned items",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 5,
+          "item_ref": {
+            "index": 3,
+            "text": "Build My Borrowings, Requests, Profile, and admin statistics views with approval/rejection, active and due-soon tracking, returns, mutual ratings, reliability metrics, and the complete end-to-end demo workflow."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    }
+  ],
+  "attached_to_plan": false
+}

@@ -1,0 +1,5 @@
+## CampusShare Plan
+- [x] Set up a persistent database for student accounts, item listings, borrow requests, returns, ratings, and saved items; use a warm white and ink palette with cobalt and lime accents, crisp sans-serif typography, rounded cards, and a responsive sidebar layout.
+- [x] Build email/password sign-in with seeded demo student accounts, plus the Home, Browse, Item Details, and Saved pages with search, filters, categories, the “Need It?” matching feature, and item availability.
+- [x] Build My Items and Borrow Request pages with image upload, validated listing forms, editing and availability controls, date-based requests, and a clear request confirmation.
+- [x] Build My Borrowings, Requests, Profile, and admin statistics views with approval/rejection, active and due-soon tracking, returns, mutual ratings, reliability metrics, and the complete end-to-end demo workflow.
