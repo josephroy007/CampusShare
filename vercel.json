@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "pip install -r requirements.txt && python3 -m reflex export --frontend-only",
+  "outputDirectory": ".web/build/client",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/items/(.*)",
+      "destination": "/__spa-fallback.html"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
