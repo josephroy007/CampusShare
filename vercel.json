@@ -6,9 +6,8 @@
       "runtime": "python",
       "entrypoint": "app/app.py"
     },
-    "reflexlock": {
-      "root": "reflex.lock",
-      "framework": "vite",
+    "web": {
+      "root": "public",
       "bindings": [
         {
           "type": "service",
@@ -21,9 +20,15 @@
   },
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/api/(.*)",
       "destination": {
         "service": "app"
+      }
+    },
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "web"
       }
     }
   ]
